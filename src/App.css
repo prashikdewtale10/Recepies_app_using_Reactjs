@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  color: #fff;
+  min-height: 100vh;
+}
+.header{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  float: left;
+  margin-left: 45px;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.search_bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-weight: 600;
+}
+.search_button{
+  background:#8ec5fc ;
+  border: none;
+  padding: 10px 20px;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.recipe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: 1px solid #333;
+}
+.title{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.items{
+  border: 1px solid #333;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: #000;
+
+}
+.items:hover{
+  background-color: rgb(233, 221, 221);
+}
+.listdata{
+  /* list-style: none; */
+  
+  line-height: 1.2;
+  letter-spacing: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+border-radius: 10px;
+}
+.image:hover{
+  opacity: 0.6;
+  transition: 0.2s;
+}
+body{
+  background-color: #282c34;
+
+}
+.footer{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+
+}
+.footer_logo{
+
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  margin-right: 25px;
+}
+.copyright{
+  font-size: 20px;
+}
+
